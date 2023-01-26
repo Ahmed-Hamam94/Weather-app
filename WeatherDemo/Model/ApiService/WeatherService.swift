@@ -31,7 +31,7 @@ class WeatherService{
     var delegateWeather : WeatherServiceDelegate?
     
     var delegateError : WeatherErrorDelegate?
-    let apiKey = "38480bedb90273ba0e8ec538b55ca040"
+    let apiKey = ""  // use your appid
     
     // MARK: -  GET WEATHER FROM API USING CITY NAME
     func getWeather(city : String){
